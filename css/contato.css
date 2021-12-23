@@ -23,11 +23,12 @@ body{
     text-align: center;
     font-size: 1.2rem;
     margin-left: 777px;
+    background-color: black;
 }
 .contato label, .contato textarea{
     display: block;
     width: 100%;
-    color: black;
+    color:white;
     text-transform: uppercase;
 }
 .contato input,.contato textarea{
@@ -45,13 +46,18 @@ body{
    width: 40%;
    margin-top: 10px;
 }
+
 h3{
     color:rgb(199, 5, 5);
     font-size: 1.8rem;
     text-align: center;
     margin-top: 5%;
-    
+    background-color: black;
+    width: 574px;
+    margin-left: 36%;
+    border-radius: 5px;
 }
+
 P{
     color: white;
 }

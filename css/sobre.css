@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('https://rbj.com.br/wp-content/uploads/2020/06/14-04-20-u5fycep9djwlqwe.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+    height:  100vh;
+}
+
+.titulo-main{
+    text-align: center;
+    margin-left: 26%;
+}
+.sub-main{
+    text-align: center;
+    margin-left: 34%;
+}
