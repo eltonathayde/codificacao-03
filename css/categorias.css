@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('https://f.i.uol.com.br/fotografia/2013/12/11/344736-970x600-1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+    height:  100vh;
+}

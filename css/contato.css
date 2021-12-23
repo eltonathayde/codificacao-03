@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('https://plataoplomo.com.br/wp-content/uploads/2017/10/festas-populares-pelo-mundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+    height:  100vh;
+}
+.contato{
+    padding: 20px;
+    border:2px solid black; 
+    margin: 20px;
+    width: 350px;
+    top: 155px;
+    right: 100px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-left: 777px;
+}
+.contato label, .contato textarea{
+    display: block;
+    width: 100%;
+    color: black;
+    text-transform: uppercase;
+}
+.contato input,.contato textarea{
+    border-radius: 25px;
+    border: none;
+    padding: 5px;
+    outline: none;
+}
+.contato textarea{
+   width: 60%;
+   margin: 0 auto;
+
+}
+.contato input[type=submit]{
+   width: 40%;
+   margin-top: 10px;
+}
+h3{
+    color:rgb(199, 5, 5);
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 5%;
+    
+}
+P{
+    color: white;
+}

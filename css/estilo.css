@@ -5,41 +5,38 @@
     padding: 0;
 }
 
-.images2{
+body{
     background-image: url('https://i.ytimg.com/vi/ToUGNeIdt04/maxresdefault.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center ;
-    width: 2040px;
-    height: 513px;
-    margin-top: 10.5rem;
-}
-
-body{
-    background-color: black;
-  
+    height:  100vh;
+    
 }
    
 
 .baile ul{
-    height: 50px;
-    background-color: black;
-    opacity: 0.6;
-    padding: 15px;
-    border-radius: 20px;
+    display:inline-block;
+    
 }
  .baile a{
-    display: inline;
+    display: inline-block;
     text-decoration: none;
     color: white;
     font-weight: 700;
-    width: auto;
+    font-size: 1.8rem;
+    margin-left: 20px;
  }
  .menu{
+    background-color: black;
+    padding: 15px;
+    margin:0 auto;
+    width: 85%;
+    margin-top: 1%;
     
-        float: right;
-        width: auto;
-        margin-right: 54%;
+        
+ 
+        
  }
  .menu li{
     list-style: none;
@@ -52,16 +49,41 @@ body{
     margin-top: -7px;
     border-radius: 25px;
     transition: 0.7s all;
+    font-size:  1.8rem;
  }
  .titulo-main{
      text-align: left;
      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
      font-weight:bold;
-     margin-top: 13%;
+     margin-top: 8%;
+     font-size: 4.0rem;
+     width: 50.5%;
+     margin-left: 145px;
  }
  .sub-main{
     text-align: left;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight:bold;
-    font-weight: 900;
+    font-size: 1.8rem;
+    width: 35%;
+    color:blanchedalmond;
+    margin-top: 1.5%;
+    margin-left: 145px;
+    text-transform: uppercase;
+
+ }
+ .Diversao{
+      color: white;
+      background-color: black;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      width: 138px;
+      height: 40px;
+      border-radius: 26px;
+      margin-left: 145px;
+      margin-top: 1.5%;
+
+ }
+ 
+ i{
+     color: white;
+     margin-left: 568px;
  }
